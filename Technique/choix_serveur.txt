@@ -8,7 +8,7 @@ Nous avons décidé de prendre l'offre o2switch pour plusieurs raisons. Il faut 
 - BDD, espace disque illimité
 - Nom de domaine offert
 - Certificat SSL
-- 5 000 000 visites / mois
+- 5 000 000 visites / mois (critère largement validé)
 - Meilleur assistance / support technique du marché
 - Hebergeur très sérieux, bon retours
 
