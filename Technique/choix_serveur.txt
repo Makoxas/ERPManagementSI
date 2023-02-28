@@ -1,9 +1,9 @@
-Nous avons décidé de prendre l'offre o2switch pour plusieurs raisons. Il faut un serveur capable de permettre 2 000 000 visites par mois.
+Nous avons décidé de prendre l'offre o2switch pour plusieurs raisons. Il faut un serveur capable de permettre 2 000 000 de visites par mois.
 
 
 - Prix avantageux (7€ mois)
 - Sauvegarde en cas de pertes de nos données
-- Hebergeur français, donc une certaine qualité
+- Hébergeur français, donc une certaine qualité
 - 48 Go de Ram
 - BDD, espace disque illimité
 - Nom de domaine offert
