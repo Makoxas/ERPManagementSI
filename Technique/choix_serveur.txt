@@ -1,4 +1,4 @@
-Nous avons décidé de prendre l'offre o2switch pour plusieurs raisons. Il faut un serveur capable de permettre 2 000 000 visites du moins.
+Nous avons décidé de prendre l'offre o2switch pour plusieurs raisons. Il faut un serveur capable de permettre 2 000 000 visites par mois.
 
 
 - Prix avantageux (7€ mois)
