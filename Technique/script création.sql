@@ -10,6 +10,9 @@ CREATE TABLE CLIENT(
    Prénom VARCHAR(50),
    Nom VARCHAR(50),
    Adresse VARCHAR(150),
+   N_cb INT,
+   Cryptogramme INT,
+   Date_expi DATE,
    PRIMARY KEY(Identifiant_client)
 );
 
@@ -30,6 +33,9 @@ CREATE TABLE EMPLOYER(
    Identifiant_employer INT,
    Prénom VARCHAR(50),
    Nom VARCHAR(50),
+   Sexe VARCHAR(50),
+   N_sécu INT,
+   Adresse VARCHAR(150),
    Identifiant_role INT,
    PRIMARY KEY(Identifiant_employer),
    FOREIGN KEY(Identifiant_role) REFERENCES R0LE(Identifiant_role)
