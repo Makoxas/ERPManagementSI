@@ -1,10 +1,15 @@
 Nous avons décidé de prendre l'offre o2switch pour plusieurs raisons
 
 
-Prix avanatgeux (7€ mois)
-Sauvegarde en cas de pertes de nos données
-Hebergeur français, donc une certaine qualité
-48 Go de Ram
-BDD, espace disque illimité
-Nom de domaine offert
-Certificat SSL
+- Prix avanatgeux (7€ mois)
+- Sauvegarde en cas de pertes de nos données
+- Hebergeur français, donc une certaine qualité
+- 48 Go de Ram
+- BDD, espace disque illimité
+- Nom de domaine offert
+- Certificat SSL
+- Jusqu'à 5 000 000 visites / mois
+- Meilleur assistance / support technique du marché
+- Hebergeur très sérieux, bon retours
+
+Ces nombreux avantages nous ont fait choisir l'offre de o2switch.
