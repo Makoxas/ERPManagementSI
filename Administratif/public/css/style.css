@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     gap: 8em;
+    align-items: center;
 }
 
 .main-header h1 {
@@ -24,6 +25,7 @@
 
 .main-header .add-icon-ctn {
     width: 3em;
+    cursor: pointer;
 }
 
 .main-header .add-icon-ctn img {
@@ -49,7 +51,9 @@
     border: 1px solid black;
     padding: 1em;
     text-align: start;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    background: #ddd;
+    text-align: center;
 }
 
 .array-ctn table tr td {
