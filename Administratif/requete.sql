@@ -4,11 +4,11 @@ INSERT INTO Catalogue VALUES (3, 'Catalogue 3');
 INSERT INTO Catalogue VALUES (4, 'Catalogue 4');
 INSERT INTO Catalogue VALUES (5, 'Catalogue 5');
 
-INSERT INTO Client VALUES (1, 'Bastien', 'Bodin', '1 rue de la paix 35000 Rennes', 5131623640478952, 442, '2025-20-10', 'Bastien.Bodin@gmail.com');
-INSERT INTO Client VALUES (2, 'Damien', 'POrchet', '2 rue de la paix 53000 Laval', 5231623640478952, 432, '2025-20-50', 'Damien.Porchet@gmail.com');
-INSERT INTO Client VALUES (3, 'Alexandre', 'Bodin', '3 rue de la paix 35000 Rennes', 5331623640478952, 422, '2025-20-40', 'Alexandre.Bodin@gmail.com');
-INSERT INTO Client VALUES (4, 'Uwu', 'Kodasai', '4 rue de la paix 35000 Rennes', 5431623640478952, 412, '2025-20-30', 'Uwu.Kodasai@gmail.com');
-INSERT INTO Client VALUES (5, 'Remi', 'Legalec', '5 rue de la paix 35000 Rennes', 5531623640478952, 402, '2025-20-20', 'Remi.Legalec@gmail.com');
+INSERT INTO Client VALUES (1, 'Bastien', 'Bodin', '1 rue de la paix 35000 Rennes', 5131623640478952, 442, '2025-10-10','2020-10-20','Bastien.Bodin@gmail.com',0);
+INSERT INTO Client VALUES (2, 'Damien', 'POrchet', '2 rue de la paix 53000 Laval', 5231623640478952, 432, '2025-10-30','2019-10-19', 'Damien.Porchet@gmail.com',1);
+INSERT INTO Client VALUES (3, 'Alexandre', 'Bodin', '3 rue de la paix 35000 Rennes', 5331623640478952, 422, '2025-09-06','2018-05-10', 'Alexandre.Bodin@gmail.com',0);
+INSERT INTO Client VALUES (4, 'Uwu', 'Kodasai', '4 rue de la paix 35000 Rennes', 5431623640478952, 412, '2025-07-30','2020-12-09', 'Uwu.Kodasai@gmail.com',1);
+INSERT INTO Client VALUES (5, 'Remi', 'Legalec', '5 rue de la paix 35000 Rennes', 5531623640478952, 402, '2025-05-20','2020-09-06', 'Remi.Legalec@gmail.com',0);
 
 INSERT INTO R0LE VALUES (1, 'Administrateur', 'Administrateur du site');
 INSERT INTO ROLE VALUES (2, 'Secretaire', 'Secretaire de l''entreprise');
