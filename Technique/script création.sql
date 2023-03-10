@@ -15,7 +15,7 @@ CREATE TABLE CLIENT(
    Date_expi DATE,
    Date_creation DATE,
    mail VARCHAR(255),
-   abonnement_mail TINY_INT,
+   abonnement_mail TINYINT,
    PRIMARY KEY(Identifiant_client)
 );
 
@@ -95,8 +95,12 @@ CREATE TABLE DÉPENSE(
 CREATE TABLE Statistique (
     idStatistique INT NOT NULL AUTO_INCREMENT,
     mois DATE,
-    pourcentageClic FLOAT,
-    tauxAbonnement FLOAT,
+    nbMailEnvoyes INT,
+    pourcentageClicLiens FLOAT,
+    tauxDesabonnement FLOAT,
     dureeConsultationSite INT,
+    pourcentClicsMailHeureEnvoi FLOAT,
+    pourcentClicsSiteHeure FLOAT,
+    nbConsultation INT,
     PRIMARY KEY (idStatistique)
 );
