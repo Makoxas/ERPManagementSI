@@ -99,8 +99,6 @@ CREATE TABLE Statistique (
     pourcentageClicLiens FLOAT,
     tauxDesabonnement FLOAT,
     dureeConsultationSite INT,
-    pourcentClicsMailHeureEnvoi FLOAT,
-    pourcentClicsSiteHeure FLOAT,
     nbConsultation INT,
     PRIMARY KEY (idStatistique)
 );
