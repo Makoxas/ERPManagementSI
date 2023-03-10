@@ -26,11 +26,11 @@ INSERT INTO COMMANDE VALUES (5, '2020-10-14');
 
 
 
-INSERT INTO EMPLOYER VALUES (1, 'Roberto','Ramiez','M', 123456789, '1 rue de la paix 35000 Rennes', 3);
-INSERT INTO EMPLOYER VALUES (2, 'Chantal','MOha','W', 133456789, '2 rue de la paix 35000 Rennes',2 );
-INSERT INTO EMPLOYER VALUES (1, 'Emilien','Cosson','M', 143456789, '3 rue de la paix 35000 Rennes',1 );
-INSERT INTO EMPLOYER VALUES (4, 'Arthur','Bratigny','M', 153456789, '4 rue de la paix 35000 Rennes', 4);
-INSERT INTO EMPLOYER VALUES (5, 'Hugo','Ops','M', 163456789, '5 rue de la paix 35000 Rennes', 5);
+INSERT INTO EMPLOYER VALUES (1, 'Roberto','Ramiez','M', 123456789, '1 rue de la paix 35000 Rennes',1);
+INSERT INTO EMPLOYER VALUES (2, 'Chantal','MOha','W', 133456789, '2 rue de la paix 35000 Rennes',2);
+INSERT INTO EMPLOYER VALUES (3, 'Emilien','Cosson','M', 143456789, '3 rue de la paix 35000 Rennes',3);
+INSERT INTO EMPLOYER VALUES (4, 'Arthur','Bratigny','M', 153456789, '4 rue de la paix 35000 Rennes',4);
+INSERT INTO EMPLOYER VALUES (5, 'Hugo','Ops','M', 163456789, '5 rue de la paix 35000 Rennes',5);
 --insert
 INSERT INTO STOCK VALUES
     (1, 100, 1),
