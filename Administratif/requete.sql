@@ -1,8 +1,8 @@
-INSERT INTO Catalogue VALUES (1, 'Catalogue 1');
-INSERT INTO Catalogue VALUES (2, 'Catalogue 2');
-INSERT INTO Catalogue VALUES (3, 'Catalogue 3');
-INSERT INTO Catalogue VALUES (4, 'Catalogue 4');
-INSERT INTO Catalogue VALUES (5, 'Catalogue 5');
+INSERT INTO Catalogue VALUES (1, 'ciment', 5.00);
+INSERT INTO Catalogue VALUES (2, 'ciment renforcé', 5.00);
+INSERT INTO Catalogue VALUES (3, 'bétonneuse', 100.00);
+INSERT INTO Catalogue VALUES (4, 'brouette', 200.00);
+INSERT INTO Catalogue VALUES (5, 'pelle', 50.00);
 
 INSERT INTO Client VALUES (1, 'Bastien', 'Bodin', '1 rue de la paix 35000 Rennes', 5131623640478952, 442, '2025-10-10','2020-10-20','Bastien.Bodin@gmail.com',0);
 INSERT INTO Client VALUES (2, 'Damien', 'POrchet', '2 rue de la paix 53000 Laval', 5231623640478952, 432, '2025-10-30','2019-10-19', 'Damien.Porchet@gmail.com',1);
