@@ -1,0 +1,19 @@
+Administratif IHM+BDD:
+Ajout d'employer
+Ajout fonction métier
+Ajout droits
+
+Groupe Technique IHM+BDD+infra:
+Gestion serveur web
+Gestion BDD
+Gestion fichier web
+
+Groupe financier IHM+BDD:
+Gestion stocks
+Gestion commandes
+Gestion factures
+
+Groupe Marketing IHM+BDD:
+Définition d'un CRM
+Template électronique de communication
+Interface de gestion (type tableau de bord)
