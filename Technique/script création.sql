@@ -13,6 +13,7 @@ CREATE TABLE CLIENT(
    N_cb INT,
    Cryptogramme INT,
    Date_expi DATE,
+   mail VARCHAR(255),
    PRIMARY KEY(Identifiant_client)
 );
 
@@ -73,6 +74,8 @@ CREATE TABLE PROJET(
    Identifiant_projet INT,
    Identifiant_employer INT,
    Identifiant_client INT,
+   date_debut DATE,
+   date_fin DATE,
    PRIMARY KEY(Identifiant_projet),
    FOREIGN KEY(Identifiant_employer) REFERENCES EMPLOYER(Identifiant_employer),
    FOREIGN KEY(Identifiant_client) REFERENCES CLIENT(Identifiant_client)
