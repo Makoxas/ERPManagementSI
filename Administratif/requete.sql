@@ -1,3 +1,36 @@
+INSERT INTO Catalogue VALUES (1, 'Catalogue 1');
+INSERT INTO Catalogue VALUES (2, 'Catalogue 2');
+INSERT INTO Catalogue VALUES (3, 'Catalogue 3');
+INSERT INTO Catalogue VALUES (4, 'Catalogue 4');
+INSERT INTO Catalogue VALUES (5, 'Catalogue 5');
+
+INSERT INTO Client VALUES (1, 'Bastien', 'Bodin', '1 rue de la paix 35000 Rennes', 5131623640478952, 442, '2025-20-10', 'Bastien.Bodin@gmail.com');
+INSERT INTO Client VALUES (2, 'Damien', 'POrchet', '2 rue de la paix 53000 Laval', 5231623640478952, 432, '2025-20-50', 'Damien.Porchet@gmail.com');
+INSERT INTO Client VALUES (3, 'Alexandre', 'Bodin', '3 rue de la paix 35000 Rennes', 5331623640478952, 422, '2025-20-40', 'Alexandre.Bodin@gmail.com');
+INSERT INTO Client VALUES (4, 'Uwu', 'Kodasai', '4 rue de la paix 35000 Rennes', 5431623640478952, 412, '2025-20-30', 'Uwu.Kodasai@gmail.com');
+INSERT INTO Client VALUES (5, 'Remi', 'Legalec', '5 rue de la paix 35000 Rennes', 5531623640478952, 402, '2025-20-20', 'Remi.Legalec@gmail.com');
+
+INSERT INTO R0LE VALUES (1, 'Administrateur', 'Administrateur du site');
+INSERT INTO ROLE VALUES (2, 'Secretaire', 'Secretaire de l''entreprise');
+INSERT INTO ROLE VALUES (3, 'Ouvrier', 'Ouvrier de l''entreprise');
+INSERT INTO ROLE VALUES (4, 'Responsable chantier ', 'Responsable chantier de l''entreprise');
+INSERT INTO ROLE VALUES (5, 'Stagiaire', 'Stagiaire de l''entreprise');
+
+
+
+INSERT INTO COMMANDE VALUES (1, '2020-10-10');
+INSERT INTO COMMANDE VALUES (2, '2020-10-11');
+INSERT INTO COMMANDE VALUES (3, '2020-10-12');
+INSERT INTO COMMANDE VALUES (4, '2020-10-13');
+INSERT INTO COMMANDE VALUES (5, '2020-10-14');
+
+
+
+INSERT INTO EMPLOYER VALUES (1, 'Roberto','Ramiez','M', 123456789, '1 rue de la paix 35000 Rennes', 3);
+INSERT INTO EMPLOYER VALUES (2, 'Chantal','MOha','W', 133456789, '2 rue de la paix 35000 Rennes',2 );
+INSERT INTO EMPLOYER VALUES (1, 'Emilien','Cosson','M', 143456789, '3 rue de la paix 35000 Rennes',1 );
+INSERT INTO EMPLOYER VALUES (4, 'Arthur','Bratigny','M', 153456789, '4 rue de la paix 35000 Rennes', 4);
+INSERT INTO EMPLOYER VALUES (5, 'Hugo','Ops','M', 163456789, '5 rue de la paix 35000 Rennes', 5);
 --insert
 INSERT INTO STOCK VALUES
     (1, 100, 1),
