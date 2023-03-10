@@ -11,10 +11,10 @@ INSERT INTO Client VALUES (4, 'Uwu', 'Kodasai', '4 rue de la paix 35000 Rennes',
 INSERT INTO Client VALUES (5, 'Remi', 'Legalec', '5 rue de la paix 35000 Rennes', 5531623640478952, 402, '2025-05-20','2020-09-06', 'Remi.Legalec@gmail.com',0);
 
 INSERT INTO R0LE VALUES (1, 'Administrateur', 'Administrateur du site');
-INSERT INTO ROLE VALUES (2, 'Secretaire', 'Secretaire de l''entreprise');
-INSERT INTO ROLE VALUES (3, 'Ouvrier', 'Ouvrier de l''entreprise');
-INSERT INTO ROLE VALUES (4, 'Responsable chantier ', 'Responsable chantier de l''entreprise');
-INSERT INTO ROLE VALUES (5, 'Stagiaire', 'Stagiaire de l''entreprise');
+INSERT INTO R0LE VALUES (2, 'Secretaire', 'Secretaire de l''entreprise');
+INSERT INTO R0LE VALUES (3, 'Ouvrier', 'Ouvrier de l''entreprise');
+INSERT INTO R0LE VALUES (4, 'Responsable chantier ', 'Responsable chantier de l''entreprise');
+INSERT INTO R0LE VALUES (5, 'Stagiaire', 'Stagiaire de l''entreprise');
 
 
 
