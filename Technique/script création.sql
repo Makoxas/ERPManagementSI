@@ -13,7 +13,9 @@ CREATE TABLE CLIENT(
    N_cb INT,
    Cryptogramme INT,
    Date_expi DATE,
+   Date_creation DATE,
    mail VARCHAR(255),
+   abonnement_mail TINY_INT,
    PRIMARY KEY(Identifiant_client)
 );
 
@@ -88,4 +90,13 @@ CREATE TABLE DÉPENSE(
    PRIMARY KEY(Identifiant_dépense),
    FOREIGN KEY(Identifiant_facture) REFERENCES FACTURE(Identifiant_facture),
    FOREIGN KEY(Identifiant_projet) REFERENCES PROJET(Identifiant_projet)
+);
+
+CREATE TABLE Statistique (
+    idStatistique INT NOT NULL AUTO_INCREMENT,
+    mois DATE,
+    pourcentageClic FLOAT,
+    tauxAbonnement FLOAT,
+    dureeConsultationSite INT,
+    PRIMARY KEY (idStatistique)
 );
