@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_mails",
+  "version": "1.0.0",
+  "description": "Functions with Node mailer and imap : search mails by keyword, move mails from one person to another mailbox, send mails ...",
+  "main": "readMail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waziio/NodeJS_Mails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waziio/NodeJS_Mails/issues"
+  },
+  "homepage": "https://github.com/Waziio/NodeJS_Mails#readme"
+}
