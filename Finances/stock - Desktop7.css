@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 10% 15% 75%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#divRecherche {
+    text-align: right;
+    margin-right: 5vw;
+    height: 100%;
+}
+
+#rechercheInput {
+    height: 100%;
+}
+
+#recherche {
+    height: 80%;
+}
+
+#boutonRechercher {
+    height: 100%;
+    width: 10%;
+}
+
+#divTableauMain {
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+#tableau {
+    background-color: #D9D9D9;
+    margin: 0 5vw;
+    display: grid;
+    grid-template-columns: repeat(7, 14.28%);
+    grid-template-rows: repeat(6, 10vh);
+    overflow: scroll;
+}
+
+#tableau div {
+    height: 10vh;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.souligne {
+    text-decoration: underline;
+}
