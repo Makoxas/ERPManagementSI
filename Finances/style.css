@@ -31,6 +31,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-right: 20%;
     margin-bottom: 1em;
     
 }
@@ -57,7 +58,7 @@ select{
 .flex-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
     margin-top: 2em;
     margin-left : 2em;
 }
@@ -65,4 +66,20 @@ select{
     display: flex;
     flex-direction: column;
     
+}
+button {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+}
+table th, td {
+    
+    padding: 0.5em;
+    margin-bottom: 10%;
+}
+table {
+    
+    margin-bottom: 1em;
 }
