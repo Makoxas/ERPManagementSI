@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi de commande</title>
+</head>
+<body>
+    <h2>Suivi de commande</h2>
+    <div id = "divTriEtRecherche">
+        Trier
+        <select id = "listeDeroulanteTri"> 
+            <option value = "numeroCommandeCroissant"> Trier par le numéro de commande (croissant)</option>
+            <option value = "numeroCommandeDecroissant"> Trier par le numéro de commande (décroissant)</option>
+            <option value = "dateCommandeCroissant"> Trier par le date de la commande (croissant)</option>
+            <option value = "dateCommandeDécroissant"> Trier par le numéro de commande (décroissant)</option>
+        </select>
+
+        <input id = "inputRecherche" placeholder = "Entrer le nom d'un client"> </input>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Numéro de commande</th>
+                <th>Nom Client</th>
+                <th>Etat de la commande</th>    
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Gérard Menvuça</td>
+                <td>Terminée</td>
+                <td>02/05/2018</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Général Menfaim</td>
+                <td>En attente d'un fournisseur</td>
+                <td>01/04/2023</td>
+            </tr>
+        </tbody>
+    </table>
+    <button id = "validerFacturation">Valider</button>
+</body>
+</html>
