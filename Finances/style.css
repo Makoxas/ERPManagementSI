@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+    font-size: 16px;
+    background: #f1f1f1;
+}
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+#idCommande {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+#buttonForm{
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-bottom: 1em;
+    
+}
+label{
+    font-family: 'Inter';
+   
+}
+#margin-left
+{
+    margin-left: 2em;
+}
+input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+select{
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left : 2em;
+}
+#commande{
+    display: flex;
+    flex-direction: column;
+    
+}

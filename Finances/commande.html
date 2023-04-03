@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Commande</title>
+</head>
+<body>
+    <h1>Création de Commande</h1>
+
+        <p id="idCommande"> commande n ° </p>
+
+    <div class="flex-row">
+        <form action="facturation.php">
+            <label for="client">Client</label>
+        
+            <select name="client" id="client">
+                <option value="1">client 1</option>
+                <option value="2">client 2</option>
+                <option value="3">client 3</option>
+            </select>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+
+            <label for="chantier">Chantier</label>
+            <input type="text" name="chantier" id="chantier">
+        <div id="buttonForm">
+            <input type="submit" value="Valider">
+            <button type="reset">Annuler</button>
+        </div>
+        </form>
+
+
+        
+
+    
+        <div id="commande ">
+
+            <div class="searchBar_Produit"></div>
+                    <input type="text" id="search" placeholder="Rechercher">
+                    <button type="submit">Rechercher</button>
+            </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Article N° </th>
+                            <th>Désignation</th>
+                            <th>Prix Unitaire</th>
+                            <th>Quantité</th>
+                            <th>TVA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Produit 1</td>
+                            <td>1</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Produit 2</td>
+                            <td>2</td>
+                            <td>20</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Produit 3</td>
+                            <td>3</td>
+                            <td>30</td>
+                            <td>90</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+
+                <div class="total">
+                    <p>Total HT</p>
+                    <p>Total TTC</p>
+                </div>
+            
+        </div>
+    
+    </div>
+</body>
+</html>
