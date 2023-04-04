@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Gestion des droits personalisés</title>
+</head>
+<body>
+    <header class="body-header">
+
+    </header>
+
+    <main>
+        <header class="main-header">
+            <h1>Droits personalisés de {{USERNAME}}</h1>
+            <div class="btn delete-btn">Supprimer tout</div>
+        </header>
+
+        <div class="array-ctn">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Droit
+                        </th>
+                        <th class="description">
+                            Description
+                        </th>
+                        <th>
+                            Autorisé
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Lire les adresses des clients
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="01" id="01">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Consulter les factures
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="02" id="02">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Consulter les plannings des employés
+                        </td>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="03" id="03">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
