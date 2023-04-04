@@ -1,0 +1,46 @@
+A mettre dans le corsp de la page "Liste des membres"
+
+<div class="array-user">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Nom
+                </th>
+                <th>
+                    Prénom
+                </th>
+                <th>
+                    Métier(s)
+                </th>
+                <th>
+                    Rôle(s)
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- <?php foreach (iterable_expression as $personne) { ?> -->
+                <tr>
+                    <td>
+                        $personne->nom
+                    </td>
+                    <td>
+                        $personne->prenom
+                    </td>
+                    <td>
+                        $personne->metier
+                    </td>
+                    <td>
+                        $personne->role
+                    </td>
+                    <td>
+                        <button>Modifier</button>
+                    </td>
+                </tr>
+            <!-- <?php = ?> -->
+        </tbody>
+    </table>
+</div>
