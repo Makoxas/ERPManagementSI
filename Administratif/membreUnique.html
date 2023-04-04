@@ -1,0 +1,174 @@
+<html>
+<header>
+    <link href="style.css" rel="stylesheet">
+</header>
+
+<body class="grid">
+<div class="navbar role">
+    <div class="navbar-header">
+        <div class="test">
+            <img src="public/img/utilisateur.png">
+            <h1>Administrateur</h1>
+        </div>
+
+    </div>
+
+    <nav class="liste">
+        <h2>Navigation</h2>
+        <ol>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ol>
+    </nav>
+</div>
+
+<div class="main">
+
+    <img id="pp" src="public/img/photoProfil.png">
+    <h1>Louis-Marie FRANCE</h1>
+    <div class="role">
+        <img class="role" src="public/img/malette.png">
+        <p class="role">SECRETAIRE</p>
+    </div>
+
+    <div>
+        <p>DROITS</p>
+        <ul>
+            <li>Consulter et modifier les fichiers clients</li>
+            <li>Consulter les factures</li>
+            <li>Consulter les planning des employés</li>
+        </ul>
+    </div>
+
+    <div>
+        <p>Gérer les demandes de congé, quelles sont les périodes
+            où ceux-ci peuvent être pris</p>
+        <p>Générer des rapports et des factures</p>
+        <p>Répondre au téléphone et aux mails</p>
+        <p>Fixer des rendez-vous avec les entreprises extérieures</p>
+    </div>
+</div>
+
+
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: repeat(2, 500px);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+            grid-column: 2;
+            grid-row: 1;
+        }
+        #pp{
+            grid-column: 1;
+            grid-row: 1 / 3;
+            height : 70%;
+        }
+        .role{
+            display : inline;
+        }body{
+             margin: 0;
+         }
+
+        .body-area{
+            grid-area: 1,2;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 20vw 80vw;
+            grid-template-rows: 100vh;
+        }
+
+        .navbar{
+            background-color: #ffc100;
+            width: 20vw;
+            height: 100vh;
+            grid-area: 1;
+        }
+
+        .navbar-header{
+            width: 100%;
+            height: 30%;
+            text-align: center;
+        }
+
+
+        .navbar-header img{
+            width: 5vw;
+            height: 5vw;
+        }
+
+
+        nav {
+            width: 100%;
+            background-color: #dda827;
+        }
+
+        ol {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+
+        a.active {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .header_top{
+            border-bottom: 1px solid black;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        .header_top p{
+            margin-left: 10%;
+        }
+        .footer_top{
+            bottom: 0;
+            width: 100%;
+            background-color: #ffc100;
+            margin: 0;
+            padding: 0;
+        }
+        .footer_top p{
+            text-align: center;
+        }
+    </style>
+
+
+
+<div class="body-area role">
+    <header class="header_top">
+        <p>Tableau de bord</p>
+    </header>
+
+    <footer class="footer_top">
+        <p>© BTS Service</p>
+    </footer>
+
+</div>
+
+
+</body>
+
+</html>
