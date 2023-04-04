@@ -1,0 +1,7 @@
+#boutton {
+    display: flex;
+}
+
+#boutton * {
+    margin-right: 2%;
+}
